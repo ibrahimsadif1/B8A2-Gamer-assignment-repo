@@ -19,9 +19,7 @@ body {
     color: #534C64;
 }
 
-.text-pink {
-    color: #ff45A5;
-}
+
 
 .h-violate {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -46,7 +44,9 @@ header {
     font-size: 45px;
     padding-left: 20px;
 }
-
+.text-pink {
+    color: #ff45A5;
+}
 .header-img {
     padding-left: 240px;
 }
@@ -115,9 +115,40 @@ header {
     gap: 24px;
 }
 
+/* footer section*/
 
-
-
+.footer-section{
+    height: 640px;
+    text-align: center;
+    background-color:#0B0223;
+}
+.footer-title{
+    color:#fff;
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 20px;
+    margin-top: 120px;
+}
+.text-pink {
+    color: #ff45A5;
+}
+.footer-name{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon{
+    height: 40px;
+    width: 87px;
+    margin-top: 126px;
+}
+.footer-div-2{
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
 /* responsive media queries starts here */
 /* mobile devise */
 
