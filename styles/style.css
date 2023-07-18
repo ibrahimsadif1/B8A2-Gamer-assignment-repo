@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*shared styles */
+.btn-primary {
+    color: #fff;
+    border-radius: 48px;
+    background-color: #ff45A5;
+    padding: 21px 40px;
+    border: 0;
+}
+
+.p-light-gray {
+    color: #534C64;
+}
+
+.text-pink {
+    color: #ff45A5;
+}
+
+.h-violate {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* header starts */
+header {
+    height: 130px;
+    border: 2px solid salmon;
+    align-items: center;
+}
+
+.first-section {
+    display: flex;
+}
+
+.web-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 20px;
+}
+
+.header-img {
+    padding-left: 240px;
+}
+
+/*main section starts */
+.banner-section {
+    display: flex;
+    gap: 30px;
+
+}
+
+.banner-description {
+    background-image: url(../B8A2-Gamer-Zone/images/Group\ 14.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 901px;
+    padding-top: 148px;
+    padding-left: 240px;
+
+
+}
+
+.banner-img {
+    padding-right: 220px;
+}
+
+.btn {
+    color: #fff;
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 21px 40px;
+    border: 0;
+}
+
+.play {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+
+
+}
+
+.goat {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-weight: 800;
+
+}
+
+/* online game section */
+
+.third-section-description {
+    text-align: center;
+}
+
+.third-section-description>h3 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.cards{
+    display: flex;
+    padding: 0 240px;
+    gap: 24px;
+}
+
+
+
+
+/* responsive media queries starts here */
+/* mobile devise */
+
+
+
+/* tablet device */
