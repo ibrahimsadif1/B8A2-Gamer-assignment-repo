@@ -44,9 +44,11 @@ header {
     font-size: 45px;
     padding-left: 20px;
 }
+
 .text-pink {
     color: #ff45A5;
 }
+
 .header-img {
     padding-left: 240px;
 }
@@ -109,39 +111,128 @@ header {
     font-size: 3rem;
     font-weight: 700;
 }
-.cards{
+
+.cards {
     display: flex;
     padding: 0 240px;
     gap: 24px;
 }
 
+/* fourth section */
+
+.fourth-section {
+    display: flex;
+
+}
+
+.fourth-description {
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 260px;
+
+
+}
+
+.fourth-description>h3 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.instantly {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fourth-section-img {
+    padding-right: 240px;
+}
+
+.fourth-section-img-1 {
+    position: relative;
+}
+
+.fourth-section-img-2 {
+    position: relative;
+    right: 145px;
+    bottom: 280px;
+}
+
+/*fifth section*/
+
+.fifth-section {
+    height: 427px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.fifth-row-1 {
+    display: flex;
+    gap: 37px;
+    justify-content: center;
+    padding-bottom: 20px;
+    align-content: center;
+}
+
+.fifth-row-2 {
+    display: flex;
+    gap: 37px;
+    justify-content: center;
+    align-content: center;
+}
+
+.buttons {
+    display: flex;
+    border: 1px solid #4EC5F7;
+    border-radius: 50px;
+    width: 260px;
+    height: 80px;
+    background-color: #fff;
+    padding: 3px 2px;
+}
+.buttons > p{
+    font-size: 20px;
+    font-weight:600 ;
+    color: #0B0223;
+}
+
+
+
+
 /* footer section*/
 
-.footer-section{
+.footer-section {
     height: 640px;
     text-align: center;
-    background-color:#0B0223;
+    background-color: #0B0223;
 }
-.footer-title{
-    color:#fff;
+
+.footer-title {
+    color: #fff;
     font-weight: 700;
     font-size: 45px;
     padding-left: 20px;
     margin-top: 120px;
 }
+
 .text-pink {
     color: #ff45A5;
 }
-.footer-name{
+
+.footer-name {
     display: flex;
     justify-content: center;
 }
-.footer-icon{
+
+.footer-icon {
     height: 40px;
     width: 87px;
     margin-top: 126px;
 }
-.footer-div-2{
+
+.footer-div-2 {
     color: #fff;
     font-size: 1.125rem;
     font-weight: 600;
@@ -149,6 +240,7 @@ header {
     justify-content: center;
     gap: 60px;
 }
+
 /* responsive media queries starts here */
 /* mobile devise */
 
