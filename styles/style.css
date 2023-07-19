@@ -61,7 +61,7 @@ header {
 }
 
 .banner-description {
-    background-image: url(../B8A2-Gamer-Zone/images/Group\ 14.png);
+    background-image: url(../images/Group\ 14.png);
     background-repeat: no-repeat;
     height: 700px;
     width: 901px;
@@ -190,15 +190,13 @@ header {
     width: 260px;
     height: 80px;
     background-color: #fff;
-    padding: 3px 2px;
+    padding: 5px 5px;
 }
 .buttons > p{
     font-size: 20px;
     font-weight:600 ;
     color: #0B0223;
 }
-
-
 
 
 /* footer section*/
