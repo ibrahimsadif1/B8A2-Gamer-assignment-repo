@@ -50,7 +50,7 @@ header {
 }
 
 .header-img {
-    padding-left: 240px;
+    padding-left: 150px;
     display: flex;
 
 }
@@ -69,27 +69,35 @@ header {
     align-items: center;
 
 }
+.follow{
+    border-radius: 5px;
+    border: none;
+}
 
 /*main section starts */
 .banner-section {
     display: flex;
-    gap: 30px;
+    gap: 50px;
+    justify-content: space-between;
 
 }
 
 .banner-description {
     background-image: url(../images/Group\ 14.png);
     background-repeat: no-repeat;
-    height: 700px;
-    width: 901px;
-    padding-top: 148px;
-    padding-left: 240px;
+    width:526px;
+    height: 600px;
+    padding-top: 50px;
+    padding-left: 120px;
 
+    
 
 }
 
-.banner-img {
-    padding-right: 220px;
+.banner-img > img{
+    width: 500px;
+    height: 500px;
+    padding-right: 50px;
 }
 
 .btn {
@@ -122,6 +130,7 @@ header {
 
 .third-section-description {
     text-align: center;
+    
 }
 
 .third-section-description>h3 {
@@ -131,14 +140,21 @@ header {
 
 .cards {
     display: flex;
-    padding: 0 240px;
+    padding: 30px;
     gap: 24px;
+    width: 220px;
+    padding-left: 170px;
+}
+.card > img{
+    width: 220px;
+    height: 270px;
 }
 
 /* fourth section */
 
 .fourth-section {
     display: flex;
+    margin-bottom: -150px;
 
 }
 
@@ -147,7 +163,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 50%;
-    padding: 260px;
+    padding: 180px ;
 
 
 }
@@ -165,7 +181,7 @@ header {
 }
 
 .fourth-section-img {
-    padding-right: 240px;
+    padding-right: 100px;
 }
 
 .fourth-section-img-1 {
@@ -174,54 +190,59 @@ header {
 
 .fourth-section-img-2 {
     position: relative;
-    right: 145px;
-    bottom: 280px;
+    right: 100px;
+    bottom: 180px;
 }
+.fourth-section-img-1>img{
+    width: 450px;
+    height: 450px;
+}
+.fourth-section-img-2>img{
+   width: 200px;
+   height: 250px;
+}
+
 
 /*fifth section*/
 
 .fifth-section {
     height: 427px;
+    padding-left: 40px ;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
-
-.fifth-row-1 {
+.fifth-description{
+    max-width: 1200px;
     display: flex;
-    gap: 37px;
-    justify-content: center;
-    padding-bottom: 20px;
-    align-content: center;
-}
-
-.fifth-row-2 {
-    display: flex;
-    gap: 37px;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 100px;
 }
-
 .buttons {
     display: flex;
-    border: 1px solid #4EC5F7;
     border-radius: 50px;
-    width: 260px;
-    height: 80px;
+    gap:10px;
     background-color: #fff;
-    padding: 5px 5px;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
 }
 
-.buttons>p {
+.buttons > p {
     font-size: 20px;
     font-weight: 600;
     color: #0B0223;
+    padding-bottom: 20px;
+    align-content: center;
 }
-.buttons :hover{
-    border: 1px solid #ff45A5;
-    border-radius: 50px;
-    width: 260px;
-    height: 80px;
-    background-color: #fff;
-    padding: 5px 5px;
+.buttons:hover{
+   border: 1px solid #ff45A5;
+   border-radius: 50px;
+
+}
+.buttons > p:hover{
+    color: #ff45A5;
 }
 
 /* footer section*/
@@ -290,22 +311,49 @@ header {
 @media screen and (max-width: 576px) {
 
     .banner-section,
-    .cards {
+    .cards,
+    .header-ancore,
+    .first-section,
+    .fourth-section {
         flex-direction: column;
-        padding: 5px;
+        padding: 0px;
+    }
+    .first-section{
+        height: auto;
+        
     }
 
     .banner-description {
-        padding: 5px;
+        padding-left: 200px;
+        width: 100vw;
     }
 
     .header-img {
         padding: 5px;
+        width: 100vw;
+    }
+    .fourth-description{
+        text-align: center;
+        width: 400px;
+        padding: 20px;
+        margin-left: 80px;
+        
+    }
+    .fourth-section-img {
+        padding-left:130px;
+    }
+    .fifth-description{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
     }
 }
 
 
 /* tablet device */
 @media screen and (min-width: 576px) and (max-width: 972px){
-    
+    .first-section,
+    .header-ancore {
+        flex-direction: column;
+        height: auto;
+    }
 }
